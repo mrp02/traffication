@@ -1,0 +1,270 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     
+}
+
+
+.sky{
+    
+    width: 1900px;
+}
+.houses{
+    width: 1900px;
+    top: 20px;
+}
+
+.birds1{
+    position: absolute;
+    top: 5px;
+    left: 400px;
+    width: 200px;
+}
+
+.fly{
+    position: absolute;
+    height: 150px;
+    left: 1300px;
+    top: 20px;
+}
+
+.grass{
+    position: absolute;
+    width: 2000px;
+    height: 20px;
+    background-color: rgb(47, 255, 50);
+    top: 404px;
+
+}
+
+.road1{
+    position: absolute;
+    top: 415px;
+    width: 2000px;
+    left: 8px;
+}
+.road2{
+    position: absolute;
+    width: 2000px;
+    bottom: 20px;
+}
+
+.divider{
+    background-color:#30302E;
+    width: 2000px;
+    height: 230px;
+    position: absolute;
+    
+}
+
+.light1{
+    position: absolute;
+    top: 500px;
+    right: 1500px;
+
+}
+.light2{
+    position: absolute;
+    top: 500px;
+    right: 1000px;
+
+}
+
+.light3{
+    position: absolute;
+    top: 500px;
+    right: 600px;
+
+}
+
+.light4{
+    position: absolute;
+    top: 500px;
+    right: 200px;
+
+}
+.oneway{
+    position: absolute;
+    bottom: 190px;
+    left: 450px;
+}
+
+.oneway2{
+    position: absolute;
+    bottom: 190px;
+    left: 1300px;
+}
+.helicopter{
+    position: absolute;
+    top: 100px;
+    left: 1700px;
+    height: 250px;
+    animation: helicopter 5s linear infinite;
+}
+
+@keyframes helicopter{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+.Aeroplane{
+    position: absolute;
+    top: 50px;
+    left: 1700px;
+    animation: Aeroplane 3s linear infinite;
+}
+
+@keyframes Aeroplane{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+.man{
+    position: absolute;
+    top: 270px;
+    left: 2000px;
+    animation: man 20s linear infinite;
+}
+
+
+@keyframes man{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+
+.ped{
+    position: absolute;
+    top: 270px;
+    animation: ped 20s linear infinite;
+}
+@keyframes ped{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(2000px);
+    }
+}
+.taxi1{
+    position: absolute;
+    top: 370px;
+    left: 1500px;
+    animation: taxi1 5s linear infinite;
+}
+
+@keyframes taxi1{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+
+.bike1{
+    position: absolute;
+    top: 340px;
+    left: 1900px;
+    animation: bike1 4s linear infinite;
+}
+@keyframes bike1{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+.truck1{
+    position: absolute;
+    top: 400px;
+    left: 1800px;
+    animation: truck1 4s linear infinite;
+    width: 250px;
+}
+@keyframes truck1{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(-2000px);
+    }
+}
+.sportcar{
+    position: absolute;
+    bottom: 130px;
+    animation: sportcar 3s linear infinite;
+    right: 1600px;
+    
+}
+
+@keyframes sportcar{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(2000px);
+    }
+}
+
+.taxi2{
+    position: absolute;
+    bottom: 10px;
+    width: 220px;
+    height: 170px;
+    animation: taxi2 4s linear infinite;
+}
+
+@keyframes taxi2{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(2000px);
+    }
+}
+
+.truck2{
+    position: absolute;
+    top: 620px;
+    animation: truck2 5s linear infinite;
+}
+
+@keyframes truck2{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(2000px);
+    }
+}
+
+.bike2{
+    position: absolute;
+    top: 700px;
+    /* left: 400px; */
+    height: 160px;
+    width: 150px;
+    animation: bike2 7s linear infinite;
+
+}
+
+@keyframes bike2{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(2000px);
+    }
+}
